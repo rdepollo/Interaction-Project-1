@@ -1,0 +1,297 @@
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+#bigcontainer {
+    width: 1200px;
+}
+
+.sidepanel {
+
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+
+.sidepanel-2 {
+
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+.sidepanel-3 {
+
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#panel-1 {
+    background-image: url(images/final/side1.png);
+    background-size: 100%;
+}
+
+#panel-2 {
+    background-image: url(images/final/side2.png);
+    background-size: 100%;
+}
+
+#panel-3 {
+    background-image: url(images/final/side3.png);
+    background-size: 100%;
+}
+
+#panel-4 {
+    background-image: url(images/final/arrowbox-09.png);
+    background-size: 100%;
+}
+
+#panel-5 {
+    background-image: url(images/final/side5.png);
+    background-size: 100%;
+}
+
+#panel-6 {
+    background-image: url(images/final/side4.png);
+    background-size: 100%;
+}
+
+
+#header {
+    height: 200px;
+    width: 1200px;
+    background-image: url(images/final/header.png);
+    background-size: 100%;
+    float: left;
+}
+
+#footer {
+    height: 200px;
+    width: 1200px;
+    background-image: url(images/final/footer.png);
+    background-size: 100%;
+    float: left;
+}
+
+#container-1 {
+    float: left;
+    height: 600px;
+    width: 1200px;
+}
+
+#container-2 {
+    float: left;
+    height: 400px;
+    width: 1200px;
+}
+
+#container-3 {
+    float: left;
+    height: 200px;
+    width: 1200px;
+}
+
+#container-4 {
+    float: left;
+    height: 400px;
+    width: 1200px;
+}
+
+.contentbox {
+    width: 800px;
+    float: left;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#obj-1 {
+    background-image: url(images/final/microkorg.gif);
+    background-size: 100%;
+}
+
+#obj-2 {
+    background-image: url(images/final/maschine.gif);
+    background-size: 100%;
+}
+
+#obj-3 {
+    background-image: url(images/final/yamahapsr.gif);
+    background-size: 100%;
+}
+
+#obj-4 {
+    background-image: url(images/final/nanokontrol.gif);
+    background-size: 100%;
+}
+
+#obj-5 {
+    background-image: url(images/final/mic.gif);
+    background-size: 100%;
+}
+
+#obj-6 {
+    background-image: url(images/final/x1.gif);
+    background-size: 100%;
+}
+
+#obj-7 {
+    background-image: url(images/final/delay.gif);
+    background-size: 100%;
+}
+
+#obj-8 {
+    background-image: url(images/final/autotune.gif);
+    background-size: 100%;
+}
+
+#obj-9 {
+    background-image: url(images/final/booster.gif);
+    background-size: 100%;
+}
+
+#obj-10 {
+    background-image: url(images/final/compression.gif);
+    background-size: 100%;
+}
+
+#obj-11 {
+    background-image: url(images/final/distortion.gif);
+    background-size: 100%;
+}
+
+#obj-12 {
+    background-image: url(images/final/reverb.gif);
+    background-size: 100%;
+}
+
+#obj-13 {
+    background-image: url(images/final/wah.gif);
+    background-size: 100%;
+}
+
+#obj-14 {
+    background-image: url(images/final/fuel.gif);
+    background-size: 100%;
+}
+
+
+#obj-15 {
+    background-image: url(images/final/tape.gif);
+    background-size: 100%;
+}
+
+#obj-16 {
+    background-image: url(images/final/turntable.gif);
+    background-size: 100%;
+}
+
+#obj-17 {
+    background-image: url(images/final/looper.gif);
+    background-size: 100%;
+}
+
+#obj-18 {
+    background-image: url(images/final/komplete.gif);
+    background-size: 100%;
+}
+
+#obj-19 {
+    background-image: url(images/final/ableton.gif);
+    background-size: 100%;
+}
+#obj-20 {
+    background-image: url(images/final/speakers.gif);
+    background-size: 100%;
+}
+
+#obj-21 {
+    background-image: url(images/final/foam.gif);
+    background-size: 100%;
+}
+
+#obj-22 {
+    background-image: url(images/final/headphones.gif);
+    background-size: 100%;
+}
+
+#obj-23 {
+    background-image: url(images/final/piango.gif);
+    background-size: 100%;
+}
+
+#obj-24 {
+    background-image: url(images/final/uke.gif);
+    background-size: 100%;
+}
+
+#obj-25 {
+    background-image: url(images/final/semihollow.gif);
+    background-size: 100%;
+}
+
+#obj-26 {
+    background-image: url(images/final/harmony.gif);
+    background-size: 100%;
+}
+
+#obj-27 {
+    background-image: url(images/final/nylon.gif);
+    background-size: 100%;
+}
+
+#obj-28 {
+    background-image: url(images/final/bass.gif);
+    background-size: 100%;
+}
+
+#obj-29 {
+    background-image: url(images/final/bassamp.gif);
+    background-size: 100%;
+}
+
+#obj-30 {
+    background-image: url(images/final/guitaramp.gif);
+    background-size: 100%;
+}
+
+#arrowbox-1 {
+    background-image: url(images/final/arrowbox-08.png);
+    background-size: 100%;
+}
+
+#arrowbox-2 {
+    background-image: url(images/final/arrowbox-10.png);
+    background-size: 100%;
+}
